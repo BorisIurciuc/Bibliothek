@@ -1,5 +1,5 @@
 ﻿# Bibliothek
-* Array
+* Code for Array
 * 12_02  - sorting array
 * 17_05  - encrypt - decrypt string
 * 20_01C - add 1 element to array : {1 3 5 7 9} + 11 = {1 3 5 7 9 11}
