@@ -5,7 +5,7 @@ package hw29;
 public class Main {
 
     public static void main(String[] args) {
-      double[] arr = {4, 2, 7, 1, -5, 6};
+      double[] arr = {4, 2, 7, 1, -5, 6, 7};
 
     arrayList arrayList = new arrayList(arr);
 
@@ -22,10 +22,10 @@ public class Main {
       arrayList.addLast(222);
 
       arrayList.removeLast();
-      System.out.println(arrayList);
 
       arrayList.removeVal(7);
-
+      arrayList.removeValAll(7);
+      System.out.println(arrayList);
       arrayList.replace(2, -111);
     }
 }

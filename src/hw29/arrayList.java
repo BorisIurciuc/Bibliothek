@@ -113,6 +113,13 @@ public class arrayList {
     remove(indexOf(val));
   }
 
+  public void removeValAll(double val) {
+    double[] newArray = new double[array.length - 1];
+    for (int i = 0; i < newArray.length; i++) {
+      remove(indexOf(val));
+    }
+  }
+
   //заменяет значение val в массиве на значение newVal
   public void replace(double val, double newVal) {
     array[indexOf(val)] = newVal;
